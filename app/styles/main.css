@@ -6266,10 +6266,8 @@ button.close {
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.navbar {
+  margin-bottom: 0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
