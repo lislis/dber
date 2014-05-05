@@ -7,6 +7,9 @@ var wiredep = require('wiredep').stream;
 // Load plugins
 var $ = require('gulp-load-plugins')();
 
+// deploy to gh-pages
+var deploy = require("gulp-gh-pages");
+
 
 // Styles
 gulp.task('styles', function () {
@@ -114,3 +117,9 @@ gulp.task('watch', ['connect'], function () {
     // Watch bower files
     gulp.watch('app/bower_components/*', ['wiredep']);
 });
+
+gulp.task('deploy', function () {
+    gulp.src("./dist/**/*")
+        .pipe(deploy(gitRemoteUrl, remote));
+});
+
