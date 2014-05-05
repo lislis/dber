@@ -6266,6 +6266,10 @@ button.close {
   padding: 0.2em 0;
 }
 
+.map {
+  height: 30em;
+}
+
 .navbar {
   margin-bottom: 0;
 }
