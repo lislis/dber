@@ -1,3 +1,5 @@
+/* global L */
+'use strict';
 
 $(function() {
 	// create a map in the "map" div, set the view to a given place and zoom
@@ -13,4 +15,4 @@ $(function() {
 	L.marker([52.534400, 13.358581]).addTo(map);
 		//.bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
 		//.openPopup();
-})
+});
