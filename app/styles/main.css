@@ -6291,8 +6291,8 @@ p {
   margin-bottom: 1.5em;
 }
 
-footer {
-  background-color: #eeeeee;
+footer .container {
+  margin-bottom: .5em;
 }
 
 .browsehappy {

@@ -42,13 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin-bottom: 1.5em;
 }
-footer {
-    height: 30px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: $gray-lighter;
+footer .container {
+    margin-bottom: .5em;
 }
 
 .browsehappy {
