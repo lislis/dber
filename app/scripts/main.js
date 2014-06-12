@@ -14,7 +14,7 @@ $(function() {
 	//L.tileLayer.provider('OpenMapSurfer').addTo(map);
 
 	// add a marker in the given location, attach some popup content to it and open the popup
-	//L.Icon.Default.imagePath = 'http://cdn.leafletjs.com/leaflet-0.7.3/images/marker-icon.png';
+	L.Icon.Default.imagePath = '/images';
 	L.marker([52.534400, 13.358581]).addTo(map);
 		//.bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
 		//.openPopup();
