@@ -1,7 +1,6 @@
 /* global L */
 'use strict';
 
-//$('#imprint').modal();
 
 $(function() {
 	// create a map in the "map" div, set the view to a given place and zoom
@@ -14,8 +13,15 @@ $(function() {
 	L.tileLayer.provider('OpenStreetMap.HOT').addTo(map);
 
 	// add a marker in the given location, attach some popup content to it and open the popup
+	//L.Icon.Default.imagePath = 'http://cdn.leafletjs.com/leaflet-0.7.3/images/marker-icon.png';
 	L.marker([52.534400, 13.358581]).addTo(map);
 		//.bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
 		//.openPopup();
+
+	// bootstrap modal window
+	$('[data-toggle="modal"]').on('click', function() {
+		var elem = $(this).attr('data-target');
+		$(elem).modal();
+	});
 
 });
