@@ -1,6 +1,8 @@
 /* global L */
 'use strict';
 
+$('#imprint').modal();
+
 $(function() {
 	// create a map in the "map" div, set the view to a given place and zoom
 	var map = L.map('map').setView([52.534400, 13.358581], 15);
@@ -15,4 +17,5 @@ $(function() {
 	L.marker([52.534400, 13.358581]).addTo(map);
 		//.bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
 		//.openPopup();
+
 });

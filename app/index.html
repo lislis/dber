@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="col-md-6">
                     <div class="page-header">
-                        <h1>N&auml;chste Usergroup:<br>12. Juni 2014</h1>
+                        <h1>N&auml;chste Usergroup:<br>14. August 2014</h1>
                     </div>
                     <p>Wir treffen uns alle zwei Monate am zweiten Donnerstag im Monat bei <a href="http://in-berlin.de/space/" target="">IN-Berlin</a>.</p>
                         <p>Dort sind wir dann von 19:00 bis etwa 22:00. Ein Abschlussbier gibt's im <a href="http://www.kapitel21.de/" target="_blank">Kapitel 21</a> nebenan.</p>
@@ -56,7 +56,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 content--usergroup">
                         <div class="page-header">
                             <h2>Die Usergrouptreffen</h2>
                         </div>
@@ -64,7 +64,7 @@
                         <p>Wir sitzen gewöhnlich zwanglos zusammen und reden über diaspora* und verwandte Themen. Dabei geht es um 'Internes', zum Beispiel was gerade in der Community los ist oder welche Entwicklungen in der Software anstehen. Es geht aber auch um 'Externes', andere Software (open source, dezentral, sozial ?!) oder noch externer, welches Spiel man gerade spielt, was man sonst so seit dem letzten Treffen getan hat etc.</p>
                         <p>Wir sind dabei offen für alles. Es ist schlie&szlig;lich eine Usergroup und die Nutzer stehen im Vordergrund. Falls jemand mal einen kleinen Talk oder ähnliches vorbereiten will oder ein Thema ganz dringen ansprechen möchte, oder sich einfach informieren möchte, bitte nicht zögern und vorbeikommen :)</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 print-hidden">
                         <div class="page-header">
                            <h2>Über dber</h2>
                        </div>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container print-hidden">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-header">
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </main>
-        <aside class="section">
+        <aside class="section content--contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -110,12 +110,12 @@
                             <li><a href="https://twitter.com/joindiaspora" target="_blank">offizieller Twitter account</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 print-hidden">
                         <h3>Organisation</h3>
                         <ul>
                             <li><a href="https://wk3.org/u/lis" target="_blank">Lisa</a></li>
-                            <li><a href="https://wk3.org/u/christophe" target="_blank">Christophe</a></li>
-                            <li><a href="https://wk3.org/u/malte" target="_blank">Malte</a></li>
+                            <!-- <li><a href="https://wk3.org/u/christophe" target="_blank">Christophe</a></li> -->
+                            <!-- <li><a href="https://wk3.org/u/malte" target="_blank">Malte</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -123,8 +123,27 @@
         </aside>
         <footer>
             <div class="container">
-                <p class="pull-left"><a href="#">Impressum</a></p>
+                <p class="pull-left"><a href="#imprint" data-toggle="modal" role="dialog" data-target="#imprint">Impressum</a></p>
                 <p class="pull-right">&copy; 2014</p>
+                <div class="modal fade" id="imprint">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Impressum</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lisa Passing</p>
+                        <p>Müllerstr 129<br>13349 Berlin</p>
+                        <p>lisa@dber.org</p>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div> -->
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
             </div>
         </footer>
 

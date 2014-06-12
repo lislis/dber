@@ -6318,10 +6318,6 @@ footer .container {
   padding-bottom: 20px;
   margin-bottom: 1em;
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -6337,5 +6333,37 @@ footer .container {
 @media screen and (min-width: 960px) {
   .container {
     max-width: 800px;
+  }
+}
+@media print {
+  .map,
+  footer,
+  .print-hidden {
+    display: none;
+  }
+
+  html {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .container {
+    margin-bottom: 1em;
+  }
+
+  .content--contact {
+    font-size: 12px;
   }
 }
