@@ -11,6 +11,7 @@ $(function() {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 	L.tileLayer.provider('OpenStreetMap.HOT').addTo(map);
+	//L.tileLayer.provider('OpenMapSurfer').addTo(map);
 
 	// add a marker in the given location, attach some popup content to it and open the popup
 	//L.Icon.Default.imagePath = 'http://cdn.leafletjs.com/leaflet-0.7.3/images/marker-icon.png';
