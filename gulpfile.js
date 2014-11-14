@@ -106,7 +106,6 @@ gulp.task('watch', ['connect'], function () {
     
     // Watch .scss files
     gulp.watch('app/styles/**/*.scss', ['styles']);
-    
 
     // Watch .js files
     gulp.watch('app/scripts/**/*.js', ['scripts']);
