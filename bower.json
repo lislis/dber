@@ -6,7 +6,6 @@
     "modernizr": "~2.6.2",
     "jquery": "~2.1.0",
     "leaflet": "~0.7.2",
-    "leaflet-providers": "~1.0.3",
     "leaflet-dist": "~0.7.2"
   },
   "devDependencies": {}
