@@ -7,7 +7,7 @@ $(function() {
 	var map = L.map('map', {scrollWheelZoom: false}).setView([52.534400, 13.358581], 15);
 
 	// add an OpenStreetMap tile layer
-	L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+	L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
