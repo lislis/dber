@@ -7,11 +7,19 @@ root = true
 
 [*]
 
+<<<<<<< HEAD
 # change these settings to your own preference
 indent_style = space
 indent_size = 2
 
 # we recommend you to keep these unchanged
+=======
+# Change these settings to your own preference
+indent_style = space
+indent_size = 4
+
+# We recommend you to keep these unchanged
+>>>>>>> origin/master
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
@@ -19,7 +27,10 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+<<<<<<< HEAD
 
 [{package,bower}.json]
 indent_style = space
 indent_size = 2
+=======
+>>>>>>> origin/master

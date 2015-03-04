@@ -1,4 +1,8 @@
 # robotstxt.org/
 
+<<<<<<< HEAD
 User-agent: * 
 Disallow:
+=======
+User-agent: *
+>>>>>>> origin/master

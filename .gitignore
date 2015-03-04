@@ -1,6 +1,11 @@
 node_modules
 .tmp
 .sass-cache
+<<<<<<< HEAD
 bower_components
 test/bower_components
 .DS_Store
+=======
+app/bower_components
+test/bower_components
+>>>>>>> origin/master

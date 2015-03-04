@@ -21,10 +21,17 @@
 }
 
 
+<<<<<<< HEAD
 $icon-font-path: "/bower_components/bootstrap-sass-official/assets/fonts/bootstrap";
 $font-family-sans-serif: "droid_sansregular";
 // bower:scss
 @import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+=======
+$icon-font-path: "/bower_components/bootstrap-sass/vendor/assets/fonts/";
+$font-family-sans-serif: "droid_sansregular";
+// bower:scss
+@import "bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss";
+>>>>>>> origin/master
 // endbower
 
 html, body {
