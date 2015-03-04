@@ -1,0 +1,154 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>dber.org - diaspora* Berlin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+<!--             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">dber</a>
+                </div>
+              </div>
+            </nav> -->
+
+            <div class="jumbotron">
+              <div class="container">
+                <div class="alert alert-warning">
+                    <p>We're hosting a diaspora* hackday in Berlin on the 14th of March. <a href="hackday.html">Read more</a></p>
+                </div>
+                <div class="col-md-12">
+                    <h1>#dber</h1>
+                    <h2>diaspora* Berlin</h2>
+                </div>
+              </div>
+            </div>
+        </header>
+        <main class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="page-header">
+                            <h1>Next Meetup:<br>26th of March 2015</h1>
+                        </div>
+                        <p>We meet on the fourth (or somethimes last) Thursday of the month at <a href="http://in-berlin.de/space/" target="">IN-Berlin</a> (Lehrter Str. 53 10557 Berlin).</p>
+                        <p>There we'll be in the small meeting room from 7:00 PM until (usually) 10:00 PM. Once in a while we go for drinks at <a href="http://www.kapitel21.de/" target="_blank">Kapitel 21</a>, almost next door.</p>
+                    </div>
+                    <div class="col-md-6 map" id="map"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 content--usergroup">
+                        <div class="page-header">
+                            <h2>The usergroup</h2>
+                        </div>
+                        <p>The most frequently asked question: What do we actually do at our meetups?</p>
+                        <p>Usually we sit together and talk about diaspora* and related topics. That can be news from the community or what's happening in development. But also other open source software or hat people did since the last meetup.</p>
+                        <p>We are open to everything and everyone. It's a usergroup after all and users are the front and center. So don't be shy and visit us some time :)</p>
+                    </div>
+                    <div class="col-md-6 print-hidden">
+                        <div class="page-header">
+                           <h2>About dber</h2>
+                       </div>
+                        <p>Everything started in late 2011 with the hashtag #diasporaBerlin that the Berlin based users of diaspora* used to meet every month at the <a href="http://c-base.org/" target="_blank">c-base</a> hacksapce. Near the end of 2012 we moved to our current host <a href="http://in-berlin.de/" target="_blank">IN-Berlin</a> where smokers have to go outside.</p>
+                        <p>In 2014 we bought a domain and set up this page for the Berlin community. More things to come!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="section content--contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Contact dber</h3>
+                        <ul>
+                           <!--  <li>diaspora*</li> -->
+                            <li><a href="mailto:lis@wk3.org">Mail</a></li>
+                            <li><a href="https://github.com/lislis/dber" target="_blank">GitHub</a></li>
+                            <!-- <li><a href=""></a>PGP Key</li> -->
+                            <!-- <li>fingerprint</li> -->
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>More diaspora*</h3>
+                        <ul>
+                            <li><a href="https://diasporafoundation.org/" target="_blank">diaspora* project page</a></li>
+                            <li><a href="https://github.com/diaspora/diaspora/" target="_blank">source code on GitHub</a></li>
+                            <li><a href="https://www.loomio.org/g/EseV9p4X/" target="_blank">community on loom.io</a></li>
+                            <li><a href="https://twitter.com/joindiaspora" target="_blank">official twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 print-hidden">
+                        <h3>Organizers</h3>
+                        <ul>
+                            <li><a href="https://wk3.org/u/lis" target="_blank">Lisa</a></li>
+                            <li><a href="https://wk3.org/u/christophe" target="_blank">Christophe</a></li>
+                            <li><a href="https://nerdpol.ch/u/bonsaiheld" target="_blank">Lisa</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div class="container">
+                <p class="pull-left"><a href="#imprint" data-toggle="modal" role="dialog" data-target="#imprint">Imprint</a> &bull; <a href="https://rubyberlin.github.io/code-of-conduct/" target="_blank">Code of Conduct</a></p>
+                <p class="pull-right">&copy; <script>document.write(new Date().getFullYear());</script></p>
+                <div class="modal fade" id="imprint">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Imprint</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lisa Passing</p>
+                        <p>Utrechter Str. 6<br>13347 Berlin</p>
+                        <p>lis@wk3.org</p>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div> -->
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+            </div>
+        </footer>
+
+
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+        <script src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <!-- endbower -->
+        <script src="/bower_components/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="/scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Hackday - diaspora* Berlin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+<!--             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">dber</a>
+        </div>
+        </div>
+      </nav> -->
+      <div class="jumbotron">
+        <div class="container">
+        <div class="col-md-12">
+          <h1>diaspora* hackday<br>Berlin</h1>
+          <h2>March 14th 2015 - IN-Berlin</h2>
+        </div>
+        </div>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container">
+        <div class="row">
+          <div class="page-header">
+            <h2>What? and How?</h2>
+          </div>
+          <p>Diaspora* is a decentralized social network. The software is open source, which means not only that everybody is allowed to use it, but also that everybody is allowed to work on it. Sadly not a lot of people do that.</p>
+          <p>This hackday aims to change that. Starting something is hard and that's why we try to make this start as enjoyable as possible: together with like-minded people.</p>
+          <p>We'll meet this Saturday and take a look at how to set up diaspora* locally, what issues to work on as beginners, how to fix bugs and how to submit the perfect pull request. Along the way we'll have the wiki and IRC open and work our way through.</p>
+          <p>Everybody is welcome, no matter the skill level. The important thing is that you're interested in diaspora* and want to take a look at some code.</p>
+        </div>
+        <div class="row">
+          <div class="page-header">
+            <h2>When? and Where?</h2>
+          </div>
+          <div class="">
+            <p>Saturday, March 14th 2015<br>
+            11:00 AM - 6:00 PM</p>
+            <p>At <a href="http://in-berlin.de/space/" target="">IN-Berlin</a><br>
+            Lehrter Str. 53, 10557 Berlin - Moabit<br>
+            in the small meeting room</p>
+          </div>
+          <div class="map" id="map"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p class="pull-left"><a href="#imprint" data-toggle="modal" role="dialog" data-target="#imprint">Imprint</a> &bull; <a href="https://rubyberlin.github.io/code-of-conduct/" target="_blank">Code of Conduct</a></p>
+        <p class="pull-right">&copy; <script>document.write(new Date().getFullYear());</script></p>
+        <div class="modal fade" id="imprint">
+          <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Imprint</h4>
+            </div>
+            <div class="modal-body">
+            <p>Lisa Passing</p>
+            <p>Utrechter Str. 6<br>13347 Berlin</p>
+            <p>mail@lislis.de</p>
+            </div>
+            <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div> -->
+          </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+      </div>
+    </footer>
+
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/leaflet/dist/leaflet.js"></script>
+    <!-- endbower -->
+    <script src="/bower_components/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="/scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
