@@ -2,18 +2,8 @@
   "name": "dber",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "bootstrap-sass-official": "~3.3.1",
     "modernizr": "~2.8.1",
     "leaflet": "~0.7.3"
   }
-=======
-    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#v3.1.0",
-    "modernizr": "~2.6.2",
-    "jquery": "~2.1.0",
-    "leaflet": "~0.7.2",
-    "leaflet-dist": "~0.7.2"
-  },
-  "devDependencies": {}
->>>>>>> origin/master
 }
